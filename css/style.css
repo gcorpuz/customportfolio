@@ -17,3 +17,42 @@
         #GRIDS 
     #EFFECTS (FADE-INS)
  --------------------------------- */
+
+ /* GLOBAL RESET */
+* { box-sizing: border-box; }
+
+/* #TYPOGRAPHY  */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgba(0,0,0,.7);
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1em;
+    font-size: 87.5%;
+    line-height: 1.5em;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+/* #LINKS */
+a {
+  color: rgba(0,0,0,.4);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(0,0,0,.6);
+}
+
+/* HELPERS */
+.text-centered {
+  text-align: center;
+}
+
+/* #IMAGES */
+img {
+  max-width: 100%;
+  height: auto;
+}
